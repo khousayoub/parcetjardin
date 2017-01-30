@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-image: url("Hyde-Park-Wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+#menu {
+  width: 50%;
+}
+#infoside {
+  width: 500px;
+  position: fixed;
+  top:0;
+  right: 90px;
+}
+.bloc {
+  padding: 10px;
+}
+#infos {
+
+}
+.blocinfo {
+  display: flex;
+}
+#map {
+  width: 500px;
+  height: 250px;
+}
