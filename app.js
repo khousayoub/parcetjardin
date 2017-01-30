@@ -1,7 +1,7 @@
 function LoadAdditionalData()
 {
     //create the queryUrl to be used in the service call
-    var query = "http://dataprovence.cloudapp.net:8080/v1/dataprovencetourisme/ParcsEtJardins?&format=json&callback=?";
+    var query = "https://gist.githubusercontent.com/khousayoub/13086a0181ee7c8d9dd3c9ba8a80fb5a/raw/4d77c7896ec7d826916c6eb55a33c8e68ae10e3b/parcJardin.json";
     var filter = "";
     var queryUrl = query + filter;
     //make jquery call to service
@@ -45,7 +45,7 @@ function AdditionalData_Loaded(data)
     var myLatLng = {lat: a, lng: b};
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 10,
+      zoom: 12,
       center: myLatLng
     });
 
